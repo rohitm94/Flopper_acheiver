@@ -99,7 +99,7 @@ int main(int argc,char *argv[])
 	elapsed = end - start;
 	//Iops = Number of threads * Number of Vector Integer instructions * Integer operations per instruction * Loop Count * Vector Capacity(Here 8 32-bit integer Numbers) 
 	// Division of 1024 * 1024 is done to calculate the Integer operations in Mega Integer operations
-	iops = num_threads * 1 * 2 * (n/10)*8 /(1024*1024);
+	iops = num_threads * 1 * 2 * n * 8 /(1024*1024);
 	
 	// Scalar integer operations for incrementing and the conditional Branching are also considered
 	iops += num_threads * 2 * (n/10)/(1024*1024) ;
