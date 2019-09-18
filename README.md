@@ -8,11 +8,11 @@ This Project is divided into 2 sections:
   
   MODEL:
   
-    This section is about understanding the hardware architecture of the machine (can be either CPU or GPU).
-    Another motive of the section is theoretically estimating and proving the maximum flops* and Iops* achievable by the respective             Machine.
+   This section is about understanding the hardware architecture of the machine (can be either CPU or GPU).
+   Another motive of the section is theoretically estimating and proving the maximum flops* and Iops* achievable by the respective            Machine.
     
-    *Notes: Flops - Floating Point Operations per Sceond
-            Iops  - Interger operations per Second
+   *Notes: Flops - Floating Point Operations per Sceond
+           Iops  - Interger operations per Second
             
   Pre-requisite Knowledge:
   1. Assembly Lang
@@ -23,9 +23,9 @@ This Project is divided into 2 sections:
   
   DESIGN:
   
-      This section is about achieving the theoretical value suggested by writing a code.
+   This section is about achieving the theoretical value suggested by writing a code.
       
-      In this section, we tried to achieve the maximum performing capability of the machine by below process:
+   In this section, we tried to achieve the maximum performing capability of the machine by below process:
         1. Providing the sufficient instructions to machine or Processor to avoid bubbles.
         2. Eliminating the looping and Conditonal jumps to our best to decrease unnecesary instruction in the pipeline.
         3. Loop Unrolling is used to decrease the branchment instructions.
