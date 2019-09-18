@@ -82,7 +82,7 @@ int main(int argc,char *argv[])
 	elapsed = end - start;
 	//Flops = Number of threads * Number of FMA's possible * Float operations per FMA * Loop Count * Vector Capacity(Here 8 32-bit Numbers) 
 	// Division of 1024 * 1024 is done to calculate the Float operations in Mega Float operations
-	flops = num_threads * 2 * 2 * (n/10) * 8 /(1024*1024);
+	flops = num_threads * 2 * 2 * n * 8 /(1024*1024);
 	
 	//Division by time to calculate Floating operations per second
 	flops = flops / (elapsed.count());
