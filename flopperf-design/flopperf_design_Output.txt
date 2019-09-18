@@ -1,0 +1,48 @@
+Flops Output:
+
+Values of x:
+ Values of x:
+ Values of x:
+ Values of x:
+ Values of x:
+ Values of x:
+ Values of x:0.1111110.1111110.1111110.1111110.1111110.1111110.111111
+ Values of x:
+ Values of x:0.1111110.111111
+ Values of x:0.111111
+ Values of x:0.111111
+ Values of x:
+ Values of x:0.1111110.111111
+ Values of x:0.111111
+ Values of x:0.111111
+ Values of x:0.111111
+Number of loops:100000000
+Number of Threads16 
+Execution time for parallel Code:0.297196 
+Number of Mega Flops 1642958 
+Number of Giga Flops 1604
+
+
+Iops Output:
+values of v1:[4294967296500000000]
+values of v1:[4294967296500000000]
+values of v1:[4294967296500000000]
+values of v1:[4294967296500000000]
+values of v1:[4294967296500000000]
+values of v1:[4294967296500000000]
+values of v1:[4294967296500000000]
+values of v1:[4294967296500000000]
+values of v1:[4294967296500000000]
+values of v1:[4294967296500000000]
+values of v1:[4294967296500000000]
+values of v1:[4294967296500000000]
+values of v1:[4294967296500000000]
+values of v1:[4294967296500000000]
+values of v1:[4294967296500000000]
+values of v1:[4294967296500000000]
+Number of loops:100000000
+Number of Threads16 
+Execution time for parallel Code:0.059577 
+Number of Mega Iops 460999 
+Number of Giga Iops 450
+
